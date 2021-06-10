@@ -1,0 +1,57 @@
+.cards {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.cards div {
+    margin-right: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 50%;
+}
+
+.cards h3 {
+    color: rgb(255, 255, 255);
+}
+
+.card1 {
+    background-image: url(./images/Earthquake.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+    margin-right: 60px;
+}
+.card2 {
+    background-image: url(./images/chlorophyll.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+.card3 {
+    background-image: url(./images/astrophysics.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+.card4 {
+    background-image: url(./images/dna.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+.card5 {
+    background-image: url(./images/neuroscience.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+.card6 {
+    background-image: url(./images/covid.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
